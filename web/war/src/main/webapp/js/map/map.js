@@ -669,12 +669,12 @@ define([
 
                     var pixelX, pixelY;
 
-                    if(evt.pageX) {
+                    if (evt.pageX) {
                         var offset = self.$node.offset();
                         pixelX = evt.pageX - offset.left;
                         pixelY = evt.pageY - offset.top;
                     }
-                    else if(evt.pixel){
+                    else if (evt.pixel){
                         pixelX = evt.pixel[0];
                         pixelY = evt.pixel[1];
                     }
